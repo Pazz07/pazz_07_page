@@ -23,7 +23,13 @@ p{
 }
 
 .perfil{
-    margin: 5px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.098);
+    padding-top: 10px;
+}
+
+.contacto{
+    display: run-in;
 }
 
 .titulo{
@@ -31,23 +37,7 @@ p{
     padding: 2.5px;
 }
 
-.descripción{
-    color: #e2f3f5;
-    padding: 2.5px;
-}
-
 .texto{
-    background-color: #3d5af1;
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-    height: auto;
-    width: auto;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.texto_2{
     background-color: #3d5af1;
     display: inline-block;
     text-align: center;
@@ -74,6 +64,21 @@ p{
     margin-right: 5px;
 }
 
+.github_block{
+    background-color: rgb( 23, 21, 21);
+    color: white;
+}
+
+.twitch_block{
+    background-color: rgb( 100, 65, 165);
+    color: white;
+}
+
+.insta_block{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+}
+
 .youtube_block{
     background-color: red;
     color: white;
@@ -84,13 +89,8 @@ p{
     color: white;
 }
 
-.insta_block{
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    color: white;
-}
-
-.twitch_block{
-    background-color: rgb( 100, 65, 165);
+.tiktok_block{
+    background-color: rgb(1,1,1);
     color: white;
 }
 
@@ -100,7 +100,6 @@ p{
     color: white;
 }
 
-.tiktok_block{
-    background-color: rgb(1,1,1);
-    color: white;
+.mañana{
+    padding: 25px;
 }
