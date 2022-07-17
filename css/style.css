@@ -28,8 +28,10 @@ p{
     padding-top: 10px;
 }
 
-.contacto{
-    display: run-in;
+.contactame{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .titulo{
