@@ -30,22 +30,19 @@ p{
 
 .contactame1{
     float: left;
-    margin: 10px;
+    margin: 15px;
     justify-content: space-evenly;
-    margin: 0px auto 30px;
 }
 
 .contactame2{
-    margin: 10px;
+    margin: 15px;
     justify-content: space-evenly;
-    margin: 0px auto 30px;
 }
 
 .contactame3{
     float: right;
-    margin: 10px;
+    margin: 15px;
     justify-content: space-evenly;
-    margin: 0px auto 30px;
 }
 
 .titulo{
