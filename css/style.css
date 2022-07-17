@@ -41,8 +41,8 @@ p{
     display: inline-block;
     text-align: center;
     padding: 10px;
-    height: 110px;
-    width: 400px;
+    height: auto;
+    width: auto;
     margin: 10px;
     border-radius: 10px;
 }
@@ -52,9 +52,9 @@ p{
     display: inline-block;
     text-align: center;
     padding: 10px;
-    height: 65px;
-    width: 400px;
-    margin: 8px;
+    height: auto;
+    width: auto;
+    margin: 10px;
     border-radius: 10px;
 }
 
