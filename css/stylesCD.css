@@ -29,7 +29,7 @@
 
 .navbar{
     width: 100%;
-    background: #734a91;
+    background: #c93384;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -122,16 +122,17 @@
 }
 
 header{
-    background-color: #f1d7ff;
+    background-color: #ffc1ff;
 }
 
 .Full{
     text-align: center;
-    padding: px;
+    padding: 8px;
+    padding-bottom: 15px;
 }
 
 .me_h4{
-    background-color: #e0b0ff;
+    background-color: #ffc8eb;
     display: inline-block;
     text-align: center;
     padding: 10px;
@@ -145,7 +146,26 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #c93384;
+}
+
+.me_p_img{
+    background-color: #fff;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    display: block;
+    padding: 10px;
+    height: 256px;
+    width: 502px;
+
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+
+    border-radius: 10px;
+    border-color: #c93384;
 }
 
 .me_p{
@@ -163,7 +183,7 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #c93384;
 }
 
 @media screen and (max-width: 800px) {
@@ -182,78 +202,13 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #c93384;
     }
-}
-
-.Hola{
-    padding-bottom: 15px;
-}
-
-.Red{
-    text-align: center;
-    padding-bottom: 4.5px;
-}
-
-.block_social{
-    margin: auto;
-    display: block;
-    padding: 6px;
-    width: 150px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    border-radius: 18px;
-    font-size: smaller;
-}
-
-.icon_list{
-    margin-right: 5px;
-}
-
-.github_block{
-    background-color: rgb( 23, 21, 21);
-    color: white;
-}
-
-.twitch_block{
-    background-color: rgb( 100, 65, 165);
-    color: white;
-}
-
-.insta_block{
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    color: white;
-}
-
-.youtube_block{
-    background-color: red;
-    color: white;
-}
-
-.fb_block{
-    background-color: rgb(59,89,152);
-    color: white;
-}
-
-.tiktok_block{
-    background-color: rgb(1,1,1);
-    color: white;
-}
-
-.discord_block{
-    background-color: rgb(114,137,218);
-    color: white;
-}
-
-.paypal_block{
-    background-color: #3b7bbf;
-    color: white;
 }
 
 .pie-pagina{
     width: 100%;
-    background: #a87bc7;
+    background: #e44f9c;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -291,7 +246,7 @@ header{
     line-height: 45px;
     color: #fff;
     margin-right: 10px;
-    background-color: #734a91;
+    background-color: #c93384;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -299,7 +254,7 @@ header{
     color: aqua;
 }
 .pie-pagina .grupo-2{
-    background-color: #734a91;
+    background-color: #c93384;
     padding: 15px 10px;
     text-align: center;
     color: #fff;

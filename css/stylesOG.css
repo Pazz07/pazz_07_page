@@ -29,7 +29,7 @@
 
 .navbar{
     width: 100%;
-    background: #734a91;
+    background: #0a5b25;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -122,7 +122,7 @@
 }
 
 header{
-    background-color: #f1d7ff;
+    background-color: #9bfab0;
 }
 
 .Full{
@@ -131,7 +131,7 @@ header{
 }
 
 .me_h4{
-    background-color: #e0b0ff;
+    background-color: #d0fdd7;
     display: inline-block;
     text-align: center;
     padding: 10px;
@@ -145,7 +145,7 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #0a5b25;
 }
 
 .me_p{
@@ -163,7 +163,7 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #0a5b25;
 }
 
 @media screen and (max-width: 800px) {
@@ -182,7 +182,7 @@ header{
     border-left: solid;
 
     border-radius: 10px;
-    border-color: #734a91;
+    border-color: #0a5b25;
     }
 }
 
@@ -246,14 +246,9 @@ header{
     color: white;
 }
 
-.paypal_block{
-    background-color: #3b7bbf;
-    color: white;
-}
-
 .pie-pagina{
     width: 100%;
-    background: #a87bc7;
+    background: #2a8c4a;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -291,7 +286,7 @@ header{
     line-height: 45px;
     color: #fff;
     margin-right: 10px;
-    background-color: #734a91;
+    background-color: #0a5b25;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -299,7 +294,7 @@ header{
     color: aqua;
 }
 .pie-pagina .grupo-2{
-    background-color: #734a91;
+    background-color: #0a5b25;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
