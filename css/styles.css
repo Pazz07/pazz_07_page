@@ -125,7 +125,14 @@ body{
     background-color: #1c1d25;
 }
 
+.logoPA{
+    position: absolute;
+    z-index: -2;
+}
+
 .Full{
+    position: relative;
+    z-index: 1;
     text-align: center;
     padding: 8px;
     padding-bottom: 15px;
