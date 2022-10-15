@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ClavoDonas | Tienda </title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <link rel="stylesheet" href="../css/styleT.css" />
+  </head>
+  <body>
+    <!-- 
+
+▒▒▒▒▒▒▒▓
+▒▒▒▒▒▒▒▓▓▓
+▒▓▓▓▓▓▓░░░▓       Homero Quiere dona
+▒▓░░░░▓░░░░▓       ¿Le compras una dona a Homero?
+▓░░░░░░▓░▓░▓
+▓░░░░░░▓░░░▓
+▓░░▓░░░▓▓▓▓
+▒▓░░░░▓▒▒▒▒▓
+▒▒▓▓▓▓▒▒▒▒▒▓
+▒▒▒▒▒▒▒▒▓▓▓▓
+▒▒▒▒▒▓▓▓▒▒▒▒▓
+▒▒▒▒▓▒▒▒▒▒▒▒▒▓
+▒▒▒▓▒▒▒▒▒▒▒▒▒▓
+▒▒▓▒▒▒▒▒▒▒▒▒▒▒▓
+▒▓▒▓▒▒▒▒▒▒▒▒▒▓
+▒▓▒▓▓▓▓▓▓▓▓▓▓
+▒▓▒▒▒▒▒▒▒▓
+▒▒▓▒▒▒▒▒▓
+    -->
+    <!--
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢹⣿⣿⣿⣿⡿⢿⢿⠻⠛⣿⣿⣿⣽⡏⣿⣿⣟⡿⣿⣿⣿⣿⡏⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠙⠹⡾⢛⢷⠄⢀⢀⢀⠉⠁⠛⠁⢀⣿⣿⣿⣧⣿⣿⣿⣿⠇⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣷⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢻⣿⣟⣼⣿⣿⣿⣿⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣆⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣼⣿⣿⣿⣿⣿⣿⣿⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿⣦⣄⡀⢀⢀⢀⢀⣠⣴⡟⣿⣿⣿⣿⣿⣿⣿⡿⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣿⣿⣿⣿⣷⣶⣶⠿⠿⠋⢠⣿⣿⣿⣿⡿⢿⡏⢀⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⡏⣿⣿⣿⣿⡿⠋⢀⢀⣠⠯⠿⢿⣿⣤⢀⢀⠃⢀⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⡇⢀⢀⠈⠉⠁⢀⢀⠈⣠⣴⣾⣿⡿⠛⠁⢀⢀⡄⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣿⣷⠜⠁⢀⢀⠂⠘⠘⠙⠉⢀⢀⢀⢀⠈⠉⢀⢷⣴⢀⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠠⢤⡼⠟⠋⢀⠔⠁⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⣿⡆⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣀⡀⠠⠐⢀⢀⢀⢀⢀⢀⢀⢀⢀⢠⠃⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣰⣿⣇⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠌⠁⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡇⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣾⣿⣿⣿⢀
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢰⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣴⣿⣿⡄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢈⣽⣿⣿⣿⡇
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢸⢀⢀⢀⢀⢀⢀⢀⢀⢀⣀⣴⣿⡟⠉⠹⣷⣄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣤⣾⣿⡿⢻⣿⣏
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⣇⢀⢀⢀⢀⢀⢀⢀⣼⠋⠉⠉⠁⢀⢀⢀⠙⠳⢦⣤⣀⣀⣠⣤⣤⣶⣾⡿⠿⠛⠁⣠⣿⢿⣿
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠲⡀⢀⢀⢀⢀⡾⠁⢀⢀⠈⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠉⠉⠉⠉⢀⢀⢀⢀⣼⣿⣿⢸⣿
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠁⢀⢨⠋⢀⢀⢀⢀⢀⠄⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣤⣞⣴⣿⣿⡿⢸⣿
+      ⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠁⢀⢀⢀⢀⢀⢀⠈⠂⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⢀⣠⣿⣿⣿⣿⣿⡇⢸⣿
+      ⢀⢀⣤⣖⣶⡤⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢸⣷⣿⣿⣿⣿⣿⣿⣿⡇⠘⣿
+      ⢀⢴⣿⣿⣿⣿⣅⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠁⢀⢀⠠⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠘⣿⣿⣿⣿⣿⣿⣿⣿⡇⢀⣿
+      ⠰⠿⣾⣿⣿⣿⡿⠇⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡰⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠠⣄⠐⢻⣿⣿⣿⣿⣿⣿⣿⢀⢀⣿
+      ⢠⢛⠈⠻⣿⢿⡷⡆⢀⢀⢀⢀⢀⢀⢀⢀⢀⠔⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⢀⣿
+      ⢸⢼⢀⢀⢀⠈⢀⠈⡀⢀⢀⢀⢀⢀⢀⢀⠂⢀⢀⢀⡐⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠙⣿⣿⣻⣿⣿⣿⣿⣿⣿⡇⢀⣿
+      ⢸⢀⢀⢀⢀⢀⢀⢀⢡⢀⢀⢀⢀⢀⢀⠂⢀⢀⢀⡰⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠸⣿⣿⣿⣿⣿⣿⣿⣿⡇⢀⣿
+      ⠸⢀⠁⢀⢀⢀⢀⢀⢀⡀⢀⢀⢀⠠⠆⢀⢀⢀⡸⠁⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⣴⠢⢀⢀⢀⢀⢀⠈⠻⣿⣿⣿⣿⣿⣿⡇⢀⣿
+      ⢀⣇⠈⡀⢀⢀⢀⢀⢀⠐⢀⢀⡐⠙⢀⢀⢀⠐⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣠⣾⠟⠋⢀⢀⢀⢀⢀⢀⢀⢀⠈⠈⠻⣿⣿⣿⣿⡀⣿
+      ⢀⠘⡄⠐⡀⢀⢀⢀⢀⢀⠈⠲⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠛⠁⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⣿⣿⣿⡇⣿
+      ⢀⢀⠁⡀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠢⣀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠙⢿⣿⣿⣿
+      ⢀⢀⢀⢀⢄⢀⢀⢄⢀⢀⢀⢀⢀⢀⠈⢷⣄⢀⢀⢀⢀⢀⢀⢀⢀⢀⣸⠏⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⢿⣿⣿
+      ⢀⢀⢀⢀⢀⠙⠶⣄⠑⠢⢀⢀⢀⢀⢀⢀⢻⣦⢀⢀⢀⢀⢀⢀⢀⢠⡇⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⠈⠙⣿
+      ⢀⢀⢀⢀⢀⠠⢂⣿⣷⣤⢀⢠⢀⢀⢀⢀⢀⢹⡄⢀⢀⢀⢀⢀⡴⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⡹
+      ⢀⢀⢀⡠⠂⢠⡾⠋⣸⣿⣤⣞⡀⢀⢀⢀⣰⣿⡇⢀⢀⢀⡠⣲⠅⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⣷
+      ⢀⢀⢀⢀⢀⢀⢀⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠁⢀⢀⠉⠉⠉⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀⢀
+    -->
+    <div class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="../index"> <img class="navbar-logo" src="../img/ClavoDonas.png" height="55px" right="55px"></img></a>
+          <button class="navbar-button" id="toggle-button"> <i class="bx bx-menu" id="toggle-icon"></i> </button>
+          <ul class="navbar-list">
+              <li class="navbar-item"> <a href="../SobreMi" class="navbar-link">Sobre Mi</a> </li>
+              <li class="navbar-item"> <a href="../ClavoDonas" class="navbar-link">Clavo Donas</a> </li>
+              <li class="navbar-item"> <a href="../ClavoDonas/tienda" class="navbar-link"> Tienda </a> </li>
+              <li class="navbar-item"> <a href="../OriginalGangsters" class="navbar-link">Original Gangsters</a> </li>
+          </ul>
+      </nav>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Has tu día dulce
+            </h1>
+            <p>
+              Esta es la tienda oficial de Clavo Donas
+            </p>
+            <p>
+              <br>Este sitio web esta hecha con fines
+              informativos de nuestro negocio tanto
+              el precio y contenido de nuestros productos.
+              Esto ayuda a nuestros clientes a saber
+              sin tener que preguntar por los precios,
+              <b>solo ver y pedir.</b>
+            </p>
+            <a href="#" class="btn">Explorar ahora &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="/img/Productos.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small-container">
+      <h2 class="title">Productos Más Populares</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details">
+            <img src="/img/Proximamente.png" alt=""/>
+          </a>
+          <h4>Brownie de "chocolate"</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <h2 class="title">Todos Nuestros Productos</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/img/Proximamente.png" alt="" />
+          <h4>Proximamente</h4>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="/img/Masvendido.png" class="offer-img" alt="" />
+          </div>
+          <div class="col-2">
+            <p>El producto mas vendido de ClavoDonas</p>
+            <h1>Brownie de "chocolate"</h1>
+            <a href="" class="btn">Regresar &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/rellax.min.js"></script>
+  </body>
+</html>

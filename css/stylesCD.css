@@ -206,6 +206,23 @@
     }
 }
 
+.maps{
+    background-color: #efefef;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-left: solid;
+
+    border-radius: 10px;
+    border-color: #c93384;
+}
+
 .pie-pagina{
     width: 100%;
     background: #e44f9c;
