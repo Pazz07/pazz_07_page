@@ -141,8 +141,13 @@ h1{
     color: #fff;
 }
 
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e0e0e0;
+}
+
 p{
-    color: #fff;
+    color: #818181;
 }
 
 .paginas{
