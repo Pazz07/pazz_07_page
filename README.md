@@ -10,7 +10,7 @@ Este repositorio le tengo publico para que las personas tengan la libertad de co
 
 ---
 
-<h2 align="center">lenguajes</h2>
+<h2 align="center">Lenguajes</h2>
 <p align="center">Este repositorio contiene los siguientes lenguajes y herramientas</p>
 
 <div align="center">
