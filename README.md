@@ -2,7 +2,7 @@
 <p align="justify/left/right/center">
 <img src="https://github.com/Pazz07/pazz_07_page/blob/gh-pages/img/tarjeta_de_presentacion_page07.jpg">
 
-### Sobre /pazz_07_page
+### Sobre este repositorio
 
 Este es el repositorio donde subo los codigos e imagenes que componen mi pagina web:)
 
