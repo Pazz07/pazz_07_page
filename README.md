@@ -17,6 +17,6 @@ Este es el repositorio donde subo los codigos e imagenes que componen mi pagina 
 <img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Js.jpg' height='50px'>
 </div></br>
 
-Loved the project? Please consider [donating](#) to help it improve!
+¿Te encantó el proyecto? Considere [hacer una donación](#) para ayudarme a mejorarlo.
 
 </div>
