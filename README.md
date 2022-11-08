@@ -14,7 +14,7 @@ Este es el repositorio donde subo los codigos e imagenes que componen mi pagina 
 <div align="center">
 <img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Html.png' height='50px'>
 <img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Css.png' height='50px'>
-><img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Js.jpg' height='50px'>
+<img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Js.jpg' height='50px'>
 </div></br>
 
 </div>
