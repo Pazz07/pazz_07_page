@@ -11,7 +11,7 @@ Este repositorio le tengo publico para que las personas tengan la libertad de co
 ---
 
 <h2 align="center">Lenguajes</h2>
-<p align="center">Este repositorio contiene los siguientes lenguajes y herramientas</p>
+<p align="center">Pagina hecha con</p>
 
 <div align="center">
 <img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Html.png' height='50px'>
@@ -20,5 +20,4 @@ Este repositorio le tengo publico para que las personas tengan la libertad de co
 </div></br>
 
 ¿Te encantó el proyecto? Considere [hacer una donación](#) para ayudarme a mejorarlo.
-
 </div>
