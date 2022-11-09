@@ -6,7 +6,7 @@
 
 Este es el repositorio donde subo los codigos e imagenes que componen mi pagina web:)
 
-Este repositorio le tengo publico para que las personas tengan la libertad de copiarlo y usarlo a su beneficio, ya sea que quieran empezar a practicar porgramacion y usen mi codigo como un boceto, lo que pido a cambio (No obligatorio) es que me dejen un follow en algunas de mis redes sociales o una donacion que asta abajo de este archivo README.md esta un link.
+Este repositorio le tengo publico para que las personas tengan la libertad de copiarlo y usarlo a su beneficio, ya sea que quieran empezar a practicar porgramacion y usen mi codigo como un boceto, lo que pido a cambio (No obligatorio) es que me dejen un follow en algunas de mis redes sociales.
 
 ---
 
