@@ -19,5 +19,5 @@ Este repositorio le tengo publico para que las personas tengan la libertad de co
 <img src='https://github.com/Pazz07/Pazz07/blob/main/img/Image_Logo_Js.jpg' height='50px'>
 </div></br>
 
-¿Te encantó el proyecto? Considere [hacer una donación](#) para ayudarme a mejorarlo.
+¿Te encantó el proyecto? considera [hacer una donación](https://www.paypal.me/PabloArvizu) para ayudarme a mejorarlo.
 </div>
